@@ -1,7 +1,7 @@
 anos = 0
 x = True
 a = b = 0
-taxa_a = taxa_b= 0.0
+taxa_a = taxa_b = 0.0
 
 while x:
     if a <= b and taxa_a >= taxa_b:
