@@ -15,4 +15,4 @@ while y:
     if w != 0 and i != 1 and i != 0 and v == 0:
         print(num,'é um número primo!')
         y = False
-        w = 0
+        w = 0 
