@@ -25,5 +25,3 @@ if not div:
 
 else:
     print(div)
-
-
