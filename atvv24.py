@@ -1,18 +1,16 @@
-num = int(input('Digite um número: '))
-y = True
-w = v = 0
-j = []
-while y:
-    for i in range(num):
-        if i != 0 and i != 1 and v == 0:
-            w = num%i
-
-            if w == 0:
-                print(num,'não é um número primo!')
-                v = 1
-                y = False
-
-    if w != 0 and i != 1 and i != 0 and v == 0:
-        print(num,'é um número primo!')
-        y = False
-        w = 0 
+def mediaArit():
+    y = True
+    soma = ad = 0
+    while y:
+        x = float(input('Digite o número: '))
+        ad += 1
+        soma += x
+        cond = input('Deseja adicionar outro número(s/n)? ')
+        if cond == 'n' or cond =='N':
+            y = False
+    result = soma/ad
+    
+    return result
+    
+a = mediaArit()
+print(a,' é a média dos números!')

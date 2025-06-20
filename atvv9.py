@@ -12,5 +12,3 @@ for i in range (len(num)):
     if num[i]%2 != 0:
         impar.append(num[i])
 print(impar,': números ímpares entre 1 e 50')
-
-

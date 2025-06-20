@@ -6,4 +6,3 @@ while x< 20:
     print(x)
     num.append(x)
 print(num)
-

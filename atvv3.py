@@ -25,9 +25,3 @@ for x in range (len(name)):
     while len(name)<3:
         print('Nome invalido!')
         name = input('Digite um nome: ')
-
-
-
-
-
-

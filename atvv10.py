@@ -9,5 +9,3 @@ while soma < num2-1:
     num.append(soma)
 
 print(num)
-
-
