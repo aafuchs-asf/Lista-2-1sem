@@ -11,7 +11,7 @@ def eleicao(eleitor):
             print('Por favor, verifique se votou corretamente')
         else:
             candid.append(x)
-            print('Voto concluido')
+            print('Voto concluido!')
             print(candid)
    
     for i in candid:

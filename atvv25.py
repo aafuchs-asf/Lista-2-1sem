@@ -17,8 +17,8 @@ def mediaIdade():
 a = mediaIdade()
 
 if a >=0 and a <=25:
-    print('Turma jovem')
+    print('Turma jovem!')
 if a >=26 and a <=60:
-    print('Turma adulta')
+    print('Turma adulta!')
 if a > 60:
-    print('Turma idosa')
+    print('Turma idosa!')

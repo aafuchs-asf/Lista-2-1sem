@@ -17,4 +17,4 @@ for i in range(turma):
             alunos = 0
 
 x = alunos/turma
-print(x,' é a média de alunos por turma')                                    
+print(x,' é a média de alunos por turma!')                                    

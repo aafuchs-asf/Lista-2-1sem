@@ -13,4 +13,4 @@ def mediaArit():
     return result
     
 a = mediaArit()
-print(a,' é a média dos números!')
+print(a,' é a média dos números')
