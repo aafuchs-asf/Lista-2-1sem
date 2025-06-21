@@ -1,20 +1,19 @@
-# Fatorial de: 5
-# 5! = 5 . 4 . 3 . 2 . 1 = 120
-
 fat = []
 fatResult = []
 result = 1
+elem = ''
 num = int(input('Digite o número: '))
 
 for i in range (num):
     fat.append(num-i)
 
+    if i != 0:
+        elem += f'{num -i}'
+        elem += '.'
+
 for j in range (num):
     result *= fat[j-1]
     fatResult.append(result)
-
-print (fat)
-print(fatResult)
-    
+        
 print('Fatorial de',num)
-print(f'{num}! = {fat[0]} {fatResult[-1]}')
+print(f'{num}! = {num}.{elem} = {fatResult[-1]}')
