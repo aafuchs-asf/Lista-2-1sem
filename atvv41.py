@@ -6,7 +6,6 @@ def calcParc(valI):
         valF = valI + (valI*(taxa/100))
         valP = valF/parc
 
-        
         print(f'R${valF:.2f}   {taxa}    {parc}   R${valP:.2f}')
 
         parc += 2
