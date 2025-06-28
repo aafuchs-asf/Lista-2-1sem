@@ -10,7 +10,6 @@ def prov():
     for a in range(10):
         z = input(f'Gabarito questão {a+1}:').upper()
         listGab.append(z)
-    print(listGab)
 
     while y:
         for i in range(10):
